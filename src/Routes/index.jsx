@@ -8,7 +8,7 @@ const RoutesApp = () => {
     <Routes>
       <Route path="/" element={<Signin/>} />
 
-      <Route path="/SignUp" element={<SignUp/>} />
+      <Route path="/SiginUp" element={<SignUp/>} />
     </Routes>
   );
 };

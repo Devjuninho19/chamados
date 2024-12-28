@@ -1,0 +1,30 @@
+.center{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding: 0 12px;
+}
+
+.login{
+    background-color: #eaeaec;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.area{
+    background-color: #181c2e;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.area img{
+    width: 170px;
+    height: 130px;
+    padding: 20px;
+}
