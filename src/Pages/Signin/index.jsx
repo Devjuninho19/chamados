@@ -26,7 +26,7 @@ const index = () => {
             onChange={(e) => setPassword(e.target.value)}
           />
 
-          <input type="submit" value="Acessar" />
+      <button type=""submit>Acessar</button>
         </form>
         <Link to="/SiginUp">Crie sua conta</Link>
       </div>
