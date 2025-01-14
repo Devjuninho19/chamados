@@ -5,20 +5,27 @@ import logo from "../../assets/logo.png";
 const index = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [nome, setNome] = useState("");
+  const [name, setName] = useState("");
+
+  function handleSubmit(e){
+e.preventDefault();
+if(name !== "" && email !== "" && passowrd !== ""){
+  alert("REALIZE O SEU CADASTRO")
+}
+}
   return (
     <div className="center">
       <div className="cadastro">
         <div className="area">
           <img src={logo} alt="Logo do login" />
         </div>
-        <form>
+        <form onSubmit={handleSubmit}>
           <h1>Cadastre-se</h1>
           <input
             type="text"
             placeholder="Digite seu nome"
-            value={nome}
-            onChange={(e) => setNome(e.target.value)}
+            value={name}
+            onChange={(e) => setName(e.target.value)}
           />
           <input
             type="text"
